@@ -708,7 +708,7 @@ declare module "../index" {
          * @return Returns the timer id.
          */
         defer(
-            func: (...args: any[]) => any,
+            func: TimerHandle,
             ...args: any[]
         ): number;
     }
